@@ -1,0 +1,11 @@
+.container {
+  margin: 2em;
+}
+
+.select-container {
+  width: 30%;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  background-size: 16px 12px;
+}
