@@ -10,11 +10,11 @@ function App() {
         selectTitle='Jedi'
         values={jedis}
       />
-       <MultiSelect
+       {/* <MultiSelect
         multiple={true}
         selectTitle='Jedi'
         values={jedis}
-      />
+      /> */}
     </div>
   );
 }
