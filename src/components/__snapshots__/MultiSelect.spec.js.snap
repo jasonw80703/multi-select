@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultiSelect /> renders initially as expected 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <span
+      class="dropdown no-title"
+      data-testid="dropdown-anchor"
+    >
+      <span
+        class="dropdown-icon false"
+      >
+        ▼
+      </span>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<MultiSelect /> when multiple is true renders as expected 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <span
+      class="dropdown no-title"
+      data-testid="dropdown-anchor"
+    >
+      <span
+        class="dropdown-icon false"
+      >
+        ▼
+      </span>
+    </span>
+  </div>
+</DocumentFragment>
+`;

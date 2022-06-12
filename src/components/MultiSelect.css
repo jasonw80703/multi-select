@@ -1,15 +1,20 @@
 .container {
   display: inline-block;
+  margin: 0.5em;
 }
 
-.anchor {
+.dropdown {
   width: 30em;
   position: relative;
   cursor: pointer;
   display: inline-block;
   border-radius: 0.5em;
   padding: 0.5em 1em;
-  border: 1px solid #ccc;
+  border: 1px solid lightgray;
+}
+
+.no-title {
+  height: 1.19em;
 }
 
 .dropdown-icon {
@@ -17,13 +22,54 @@
   right: 1em;
 }
 
+.flipped-icon {
+  transform: scaleY(-1);
+}
+
 .options-list {
-  padding: 2px;
+  padding: 0.2em;
   margin: 0;
-  border: 1px solid #ccc;
+  border: 1px solid lightgray;
   border-top: none;
+  border-radius: 0 0 0.5em 0.5em;
+  line-height: 2em;
 }
 
 .options-list li {
   list-style: none;
+  cursor: pointer;
+}
+
+li.single-action:hover {
+  background-color: lightgray;
+}
+
+.batch-action {
+  color: white;
+  background-color: gray;
+  border-radius: 0.5em;
+}
+
+.selected-datum {
+  background-color: lightgray;
+}
+
+.option-checkbox {
+  position: absolute;
+  display: block;
+  margin-top: 0.7em;
+}
+
+.label-container {
+  padding: 0.2em;
+}
+
+.label-caption {
+  display: block;
+  text-align: left;
+  font-size: 0.2em;
+}
+
+.no-values-caption {
+  color: red;
 }
